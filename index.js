@@ -1,8 +1,7 @@
 'use strict';
-
-import React, {
+import React, { Component, PropTypes, } from 'react';
+import {
 	StyleSheet, 
-	PropTypes, 
 	View, 
 	Text, 
 	Image,
@@ -11,7 +10,7 @@ import React, {
 	PanResponder
 } from 'react-native';
 
-class PickerAndroidItem extends React.Component{
+class PickerAndroidItem extends Component{
 
 	static propTypes = {
 		value: PropTypes.any,
